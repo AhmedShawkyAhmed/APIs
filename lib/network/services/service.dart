@@ -1,7 +1,7 @@
 //@dart=2.9
-import 'package:api_test/network/requests/LoginRequest.dart';
-import 'package:api_test/network/responses/LoginResponse.dart';
 import 'package:dio/dio.dart';
+import 'package:api_test/network/requests/login_request.dart';
+import 'package:api_test/network/responses/login_response.dart';
 import 'package:retrofit/retrofit.dart';
 
 part 'service.g.dart';
