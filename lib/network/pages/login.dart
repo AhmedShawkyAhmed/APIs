@@ -1,9 +1,10 @@
+
+import 'package:flutter/material.dart';
 import 'package:api_test/main.dart';
 import 'package:api_test/network/pages/home.dart';
 import 'package:api_test/network/pages/register.dart';
-import 'package:api_test/network/requests/LoginRequest.dart';
-import 'package:api_test/network/responses/LoginResponse.dart';
-import 'package:flutter/material.dart';
+import 'package:api_test/network/requests/login_request.dart';
+import 'package:api_test/network/responses/login_response.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
