@@ -1,10 +1,10 @@
 //@dart=2.9
-import 'package:api_test/network/pages/login.dart';
-import 'package:api_test/network/services/service.dart';
 import 'package:dio/dio.dart';
 import 'package:dio_http_cache/dio_http_cache.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:api_test/network/pages/login.dart';
+import 'package:api_test/network/services/service.dart';
 
 RestClient client;
 Dio dio;
@@ -56,4 +56,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
